@@ -1,4 +1,5 @@
-# git-learning
+### git-learning
+----
 如何使用git（只介绍常用的操作）
 
 ##【团队开发模式】
