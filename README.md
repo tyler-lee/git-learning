@@ -1,9 +1,10 @@
 <h2>git-learning</h2>
 ----
 如何使用git（只介绍常用的操作）
+
 Git 分支管理详解  
-    链接：http://www.topthink.com/topic/727.html  
-          http://blog.csdn.net/kasagawa/article/details/6797812  
+    链接：http://www.topthink.com/topic/727.html   
+          http://blog.csdn.net/kasagawa/article/details/6797812   
   
   
 
