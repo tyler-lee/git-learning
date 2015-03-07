@@ -56,3 +56,7 @@ Git本地仓库的搭建:
   
   git reset简介： http://blog.csdn.net/hudashi/article/details/7664464  
   git revert和git reset的区别: http://blog.csdn.net/hudashi/article/details/7664460  
+
+项目管理可以考虑使用gitLab：http://blog.csdn.net/zy416548283/article/details/38057925  
+                            http://herry2013git.blog.163.com/blog/static/219568011201341111240751
+                            
