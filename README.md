@@ -60,19 +60,24 @@ Git本地仓库的搭建:
   git reset简介： http://blog.csdn.net/hudashi/article/details/7664464  
   git revert和git reset的区别: http://blog.csdn.net/hudashi/article/details/7664460  
 
-如果开发者都可以拥有访问权限，可以建立一个统一的用户（如git），开发者将各自的pub放在git的.ssh/auth_****里，则可以通过ssh对仓库进行读写访问。 
-如果需要开发者访问权限，可以有两种方式来实现对仓库的访问权限：一种是由操作系统提供，另一种是由专门的基于git的版本管理软件。  
-1、操作系统提供
-    在服务器上给需要参与的开发者创建帐户，并分类到具体的项目组里。给仓库所在目录限定组群的访问权限，限定指定群组的开发者才只可以对仓库内的文件进行只读或读写。这样自然就只有被加入这个项目组的开发者才有权限在仓库内pull或push操作。
-    优点：本质安全（设系统是安全的）。
-    缺点：权限划分粒度不够细致，只能对一个组一起设定，不能在组内进行个例限定权限。 
-2、git版本管理软件  
-    基于git的版本管理软件如gitLab、gitosis、gitolite等。  
-    gitLab: 类似于github，可以通过web进行控制。  
-            http://blog.csdn.net/zy416548283/article/details/38057925   
-            http://herry2013git.blog.163.com/blog/static/219568011201341111240751   
-    gitosis: 权限可以细化到一个用户的读写权限（push和pull），安装方便。  
-             http://git-scm.com/book/zh/ch4-7.html    
-    gitolite: 权限可以细化用一个用户对一个分支或标签的读写权限（push和pull），安装配置较为复杂。   
-              http://git-scm.com/book/zh/v1/%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E7%9A%84-Git-Gitolite  
+
+##【权限管理】
+----
+如果开发者都可以拥有访问权限，可以建立一个统一的用户（如git），开发者将各自的pub放在git的.ssh/auth_****里，则可以通过ssh对仓库进行读写访问。        
+如果需要开发者访问权限，可以有两种方式来实现对仓库的访问权限：一种是由操作系统提供，另一种是由专门的基于git的版本管理软件。
+
+1、操作系统提供     
+    在服务器上给需要参与的开发者创建帐户，并分类到具体的项目组里。给仓库所在目录限定组群的访问权限，限定指定群组的开发者才只可以对仓库内的文件进行只读或读写。这样自然就只有被加入这个项目组的开发者才有权限在仓库内pull或push操作。      
+    优点：本质安全（设系统是安全的）。      
+    缺点：权限划分粒度不够细致，只能对一个组一起设定，不能在组内进行个例限定权限。     
+    
+2、git版本管理软件     
+    基于git的版本管理软件如gitLab、gitosis、gitolite等。    
+    gitLab: 类似于github，可以通过web进行控制。    
+            http://blog.csdn.net/zy416548283/article/details/38057925      
+            http://herry2013git.blog.163.com/blog/static/219568011201341111240751      
+    gitosis: 权限可以细化到一个用户的读写权限（push和pull），安装方便。     
+             http://git-scm.com/book/zh/ch4-7.html      
+    gitolite: 权限可以细化用一个用户对一个分支或标签的读写权限（push和pull），安装配置较为复杂。      
+              http://git-scm.com/book/zh/v1/%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E7%9A%84-Git-Gitolite     
 
