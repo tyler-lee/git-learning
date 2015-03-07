@@ -79,5 +79,6 @@ Git本地仓库的搭建:
     gitosis: 权限可以细化到一个用户的读写权限（push和pull），安装方便。     
              http://git-scm.com/book/zh/ch4-7.html      
     gitolite: 权限可以细化用一个用户对一个分支或标签的读写权限（push和pull），安装配置较为复杂。      
-              http://git-scm.com/book/zh/v1/%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E7%9A%84-Git-Gitolite     
+              http://git-scm.com/book/zh/v1/%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E7%9A%84-Git-Gitolite      
+              http://www.ossxp.com/doc/git/gitolite.html#id13    
 
